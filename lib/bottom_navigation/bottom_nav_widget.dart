@@ -37,6 +37,8 @@ class BottomNavigation extends StatelessWidget {
                       },
                       label: prevLabel,
                       alignment: Alignment.bottomLeft,
+                      bgColor: Colors.transparent,
+                      fgColor: Theme.of(context).colorScheme.primary,
                     ),
                   const SizedBox(width: 8),
                   TextBtnWidget(

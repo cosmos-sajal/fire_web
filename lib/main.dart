@@ -46,13 +46,7 @@ class MyHomePage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          // mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Text(
-            //   'Financial Independence, Retire Early',
-            //   style: Theme.of(context).textTheme.displayMedium,
-            // ),
-            // const SizedBox(height: 16),
             Text(
               'This calculator will help you determine how much you need to save each month to achieve financial independence & retire early.',
               style: Theme.of(context).textTheme.bodyLarge,
